@@ -1,15 +1,12 @@
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 
-import java.time.Duration;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class TestSwag extends Base {
+public class TestSelenium extends Base {
 
     @Test
     void testWikipedia()  {
